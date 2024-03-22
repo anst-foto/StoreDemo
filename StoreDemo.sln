@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDemo.DAL", "StoreDemo.DAL\StoreDemo.DAL.csproj", "{C977C954-6D32-4520-9364-1D785CBD5353}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDemo.DAL.Test", "StoreDemo.DAL.Test\StoreDemo.DAL.Test.csproj", "{073806D8-5DF5-43E8-A5BC-FB08139BE0E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C977C954-6D32-4520-9364-1D785CBD5353}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C977C954-6D32-4520-9364-1D785CBD5353}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C977C954-6D32-4520-9364-1D785CBD5353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{073806D8-5DF5-43E8-A5BC-FB08139BE0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{073806D8-5DF5-43E8-A5BC-FB08139BE0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{073806D8-5DF5-43E8-A5BC-FB08139BE0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{073806D8-5DF5-43E8-A5BC-FB08139BE0E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
