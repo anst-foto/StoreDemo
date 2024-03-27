@@ -1,5 +1,6 @@
 ﻿using StoreDemo.DAL.Models;
 using StoreDemo.DAL.Services;
+using StoreDemo.DAL.SqLite;
 using StoreDemo.DAL.Tables;
 
 namespace StoreDemo.DAL.Test;

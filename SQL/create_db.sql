@@ -44,3 +44,15 @@ SELECT table_sales.sale_id AS id,
 FROM table_sales
     JOIN table_goods ON table_sales.good_id = table_goods.good_id
     JOIN table_users ON table_sales.user_id = table_users.user_id;
+
+SELECT table_sales.sale_id AS sale_id,
+       date,
+       table_users.user_id AS user_id,
+       table_users.full_name AS full_name,
+       table_goods.good_id AS good_id,
+       table_goods.name AS good_name,
+       table_goods.amount AS good_amount,
+       table_goods.price AS good_price
+FROM table_sales
+         JOIN table_goods ON table_sales.good_id = table_goods.good_id
+         JOIN table_users ON table_sales.user_id = table_users.user_id;
