@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDemo.DAL.Test", "Store
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDemo.BLL", "StoreDemo.BLL\StoreDemo.BLL.csproj", "{D95DDD56-1779-44E8-A15E-6D4A7301FDBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreDemo.WPF", "StoreDemo.WPF\StoreDemo.WPF.csproj", "{DEE7EFC1-F057-4005-B12A-07997FA138A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{D95DDD56-1779-44E8-A15E-6D4A7301FDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D95DDD56-1779-44E8-A15E-6D4A7301FDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D95DDD56-1779-44E8-A15E-6D4A7301FDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEE7EFC1-F057-4005-B12A-07997FA138A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEE7EFC1-F057-4005-B12A-07997FA138A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEE7EFC1-F057-4005-B12A-07997FA138A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEE7EFC1-F057-4005-B12A-07997FA138A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

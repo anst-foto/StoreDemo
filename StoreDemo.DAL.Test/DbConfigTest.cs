@@ -16,18 +16,18 @@ public class DbConfigTest
     }
 
     [Fact]
-    public async Task GetFromConfigAsyncPositiveTest()
+    public void GetFromConfigPositiveTest()
     {
-        var config = await DbConfig.DbConfig.GetFromConfigAsync();
+        var config = DbConfig.DbConfig.GetFromConfig();
         var actual = config!.ToString();
         
         Assert.Equal(Expected, actual);
     }
 
     [Fact]
-    public async Task GetFromConfigAsyncNegativeTest()
+    public void GetFromConfigNegativeTest()
     {
-        var config = await DbConfig.DbConfig.GetFromConfigAsync("bad_config.json");
+        var config = DbConfig.DbConfig.GetFromConfig("bad_config.json");
         
         Assert.Null(config?.DataSource);
     }

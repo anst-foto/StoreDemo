@@ -1,0 +1,9 @@
+﻿<Application x:Class="StoreDemo.WPF.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             StartupUri="Windows/MainWindow/MainWindow.xaml">
+    <Application.Resources>
+         <sys:String x:Key="AppTitle">StoreDemo</sys:String>
+    </Application.Resources>
+</Application>

@@ -28,7 +28,7 @@ public class TableSales : ICrud<Sale>
     {
         var sql = $"""
                    INSERT INTO {TableNames.TABLE_SALES} ({TableSalesColumns.DATE}, {TableSalesColumns.GOOD_ID}, {TableSalesColumns.USER_ID})
-                   VALUES ('{obj.Date}', {obj.GoodId}, {obj.UserId});
+                   VALUES ('{obj.Date:yyyy-MM-dd}', {obj.GoodId}, {obj.UserId});
                    """;
         await _service.UpdateAndInsertAsync(sql);
     }

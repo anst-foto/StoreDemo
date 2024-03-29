@@ -9,7 +9,7 @@ public class SqLiteService<T>
     
     public SqLiteService(string configPath = "config.json")
     {
-        var connectionString = DbConfig.DbConfig.GetFromConfigAsync(configPath).Result.ToString();
+        var connectionString = DbConfig.DbConfig.GetFromConfig(configPath)?.ToString();
         if (string.IsNullOrEmpty(connectionString))
         {
             throw new ArgumentException($"Проблема считывания конфига {configPath}");

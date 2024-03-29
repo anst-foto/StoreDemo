@@ -11,10 +11,10 @@ public class DbConfig
         return DataSource is null ? "" : $"Data Source={DataSource}";
     }
 
-    public static async Task<DbConfig?> GetFromConfigAsync(string path = "config.json")
+    public static DbConfig? GetFromConfig(string path = "config.json")
     {
-        await using var file = new FileStream(path, FileMode.Open, FileAccess.Read);
-        var config = await JsonSerializer.DeserializeAsync<DbConfig>(file);
+        using var file = new FileStream(path, FileMode.Open, FileAccess.Read);
+        var config = JsonSerializer.Deserialize<DbConfig>(file);
         return config;
     }
 }
